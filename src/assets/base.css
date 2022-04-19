@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.input-base {
+    @apply block w-full px-3 py-2 transition duration-100 ease-in-out border rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 text-black placeholder-gray-400 bg-white border-gray-300 focus:border-blue-500
+}
+
+.checkbox-base {
+    @apply text-blue-500 transition duration-100 ease-in-out border rounded shadow-sm border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-0
+}
+
+.text-number {
+    @apply font-semibold ml-2 mr-5 px-2 py-1 rounded-full shadow-inner text-white text-xs
+}
+
+.button-comment {
+    @apply block px-4 py-2 mt-3 bg-white transition duration-100 ease-in-out text-green-500 border border-transparent rounded shadow-sm hover:bg-green-200 border-green-500 focus:ring-2 focus:ring-green-500 focus:outline-none focus:ring-opacity-50
+}
+
+.button-post {
+    @apply block px-4 py-2 text-white transition duration-100 ease-in-out bg-green-500 border border-transparent rounded shadow-sm hover:bg-green-600 focus:border-green-500 focus:ring-2 focus:ring-green-500 focus:outline-none focus:ring-opacity-50
+}
+
+.button-blue {
+    @apply block px-4 py-2 text-white transition duration-100 ease-in-out bg-blue-500 border border-transparent rounded shadow-sm hover:bg-blue-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50
+}
+
+.form {
+    @apply flex flex-col p-3 space-y-3 border-2 rounded mt-3 last:mb-3 first:mt-0 border-gray-500 bg-gray-200
+}
+
+.hover-link {
+    @apply block pl-4 align-middle text-gray-700 no-underline hover:text-purple-500 border-l-4 border-transparent lg:hover:border-gray-400
+}
+
+.active-link {
+    @apply text-gray-900 font-bold
+}
+
+.link {
+    @apply flex pb-1 md:pb-0 text-xl items-center
+}
+
+.link-icon {
+    @apply h-6 w-6 mr-3
+}
+
+.container-column {
+    @apply lg:px-6 text-gray-800 leading-normal w-full
+}
+
+.menu-item {
+    @apply py-2 md:my-0 hover:bg-purple-100 lg:hover:bg-transparent border-2 border-b-0 last:border-b-2;
+}

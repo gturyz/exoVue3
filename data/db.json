@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "email": "alain@yahoo.fr",
+      "password": "$2a$10$mr5gwSYMqJxkfF0hE0.izOLl96olR.fSDaRG0l5ejtz2RlHb2kloK",
+      "pseudo": "Alain",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image",
+      "id": 1
+    },
+    {
+      "email": "bea@yahoo.fr",
+      "password": "$2a$10$K3rAyciRxNFOxp9TOcuFneG60LIn6FuEgEJhO1K4MngxRhnXrpaRi",
+      "pseudo": "Béatrice",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image",
+      "id": 2
+    }
+  ],
+  "articles": [
+    {
+      "contenu": "lorem ipsum",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 4,
+      "pseudo": "Alain",
+      "date": 1649277945051,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 3,
+          "contenu": "Pouet !",
+          "dt": 1650398436212,
+          "pseudo": "Béatrice"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "contenu": "lorem ipsum",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 2,
+      "pseudo": "Alain",
+      "date": 1649277945051,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        }
+      ],
+      "id": 2
+    },
+    {
+      "contenu": "lorem ipsum",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 4,
+      "pseudo": "Béatrice",
+      "date": 1649277945051,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
